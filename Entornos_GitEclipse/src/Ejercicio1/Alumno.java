@@ -8,4 +8,10 @@ public class Alumno
 	{
 		
 	}
+	
+	@Override
+	public String toString() 
+	{
+		return "Alumno: [Nombre: " + nombre + "], " + "[Apellido: " + apellido + "], " + "[DNI: " + dni + "]";
+	}
 }
