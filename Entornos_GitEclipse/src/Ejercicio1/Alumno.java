@@ -14,5 +14,4 @@ public class Alumno
 	{
 		return "Alumno: [Nombre: " + nombre + "], " + "[Apellido: " + apellido + "], " + "[DNI: " + dni + "]";
 	}
-	
 }
